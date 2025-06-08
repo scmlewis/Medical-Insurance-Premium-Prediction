@@ -1,8 +1,6 @@
 # Medical-Insurance-Premium-Prediction
 A predictive model for medical insurance premiums using Python and statsmodels
 
-# Medical Insurance Premium Prediction
-
 ## Overview
 This project develops a predictive model for medical insurance premiums using a dataset of 986 records. The model employs exploratory data analysis (EDA), multiple linear regression with weighted least squares (WLS), and validation techniques to achieve a 69.6% explained variance.
 
