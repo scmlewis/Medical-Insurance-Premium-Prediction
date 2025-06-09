@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/94126811-12f3-4264-b7e6-0294ea5d4bce)
+
 # Medical-Insurance-Premium-Prediction
 A predictive model for medical insurance premiums using Python and statsmodels. Navigate to the document in `report` Folder for details.
 
