@@ -8,23 +8,23 @@ This project develops a predictive model for medical insurance premiums using a 
 
 ## Dataset
 - **Source**: Kaggle: https://www.kaggle.com/datasets/tejashvi14/medical-insurance-premium-prediction (Also available in `data` Folder)
-- 
+
 - **Features**: `Age`, `BMI`, `AnyTransplants`, `AnyChronicDiseases`, `HistoryOfCancerInFamily`, `PremiumPrice`
-- 
+
 - **Size**: 986 rows, split into 690 training and 296 testing observations
 
 ## Methodology
 - **EDA**: Identified non-linear `Age` effects and selected key predictors.
-- 
+
 - **Modeling**: Applied log transformation to `PremiumPrice`, centered `Age`, capped 30 outliers, and used WLS to address heteroskedasticity.
-- 
+
 - **Validation**: Evaluated on test set with MSE 0.02 (log scale) and 12,531,667.25 (original scale).
 
 ## Results
 - **R-squared**: 0.696
-- 
+
 - **Significant Predictors**: `Age_centered`, `Age2_centered`, `BMI`, `AnyTransplants`, `AnyChronicDiseases`, `HistoryOfCancerInFamily`
-- 
+
 - **Limitations**: Persistent heteroskedasticity (Breusch-Pagan p = 0.0000)
 
 ## Usage
