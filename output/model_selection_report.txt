@@ -1,0 +1,17 @@
+MODEL SELECTION REPORT
+================================================================================
+
+Selected Model: OLS Baseline
+Selection Score: 0.5067
+
+Performance Metrics:
+  Test R²:   0.7217
+  Test RMSE: $3493.05
+  Test MAE:  $2455.60
+
+Full Comparison Table:
+           Model  Train_R2  Test_R2  Train_RMSE   Test_RMSE   Train_MAE    Test_MAE  CV_Mean_R2  CV_Std_R2    R2_Gap    RMSE_Gap  Selection_Score
+    OLS Baseline  0.645925 0.721707 3611.301212 3493.049109 2420.874762 2455.595467    0.680392   0.060213 -0.075782 -118.252102         0.506744
+Ridge Regression  0.645292 0.719352 3614.526069 3507.795508 2423.822687 2464.597384    0.680283   0.060108 -0.074060 -106.730561         0.506585
+      ElasticNet  0.616075 0.652553 3760.444678 3902.994801 2516.728921 2695.062090    0.665129   0.060851 -0.036478  142.550123         0.467467
+Lasso Regression  0.577445 0.594601 3945.098238 4215.943283 2599.374280 2841.998686    0.639435   0.066191 -0.017156  270.845044         0.392562
